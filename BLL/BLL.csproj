@@ -43,6 +43,9 @@
     <Compile Include="Permission\CheckAuth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BLL_Account.cs" />
+    <Compile Include="Service\BLL_Brand.cs" />
+    <Compile Include="Service\BLL_Catogory.cs" />
+    <Compile Include="Service\BLL_PriceHistory.cs" />
     <Compile Include="Service\BLL_Product.cs" />
   </ItemGroup>
   <ItemGroup />

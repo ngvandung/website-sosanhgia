@@ -127,8 +127,6 @@ namespace DAL
                 SqlCommand cmd = new SqlCommand("stp_editAccount", conn); //Tên store procedure
                 cmd.CommandType = CommandType.StoredProcedure; //Cho biết đây là store procedure
                 cmd.Parameters.AddWithValue("@matk", dto_account.UserId);
-                cmd.Parameters.AddWithValue("@id", dto_account.Id);
-                cmd.Parameters.AddWithValue("@pass", dto_account.Pass);
                 cmd.Parameters.AddWithValue("@ten", dto_account.UserName);
                 cmd.Parameters.AddWithValue("@diachi", dto_account.Address);
                 cmd.Parameters.AddWithValue("@anh", dto_account.Avt);

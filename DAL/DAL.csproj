@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Connecting.cs" />
     <Compile Include="DAL_Account.cs" />
+    <Compile Include="DAL_Brand.cs" />
     <Compile Include="DAL_Catogory.cs" />
+    <Compile Include="DAL_PriceHistory.cs" />
     <Compile Include="DAL_Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

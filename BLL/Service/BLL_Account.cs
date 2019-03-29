@@ -96,5 +96,10 @@ namespace BLL.Service
         {
             return dal_account.checkId(id).Rows.Count > 0 ? true : false;
         }
+
+        public string getUserId(string id, string pass)
+        {
+            return dal_account.getMatk(id, pass);
+        }
     }
 }
